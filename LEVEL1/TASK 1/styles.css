@@ -1,5 +1,7 @@
 
 body, html {
+    background-image: url('../images/sea.jpg');
+    background-size: cover;
     margin: 0;
     padding: 0;
     font-family: Arial;
@@ -9,8 +11,7 @@ body, html {
 }
 
 .hero {
-    background-image: url('../images/sea.jpg');
-    background-size: cover;
+ 
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -18,11 +19,17 @@ body, html {
     text-align: center;
     color: #fff;
 }
+header{
+    color: white;
+    padding: 20px;
+}
 img {
-    width: 70px;
-    border-radius: 35px;
+    width: 30px;
+    border-radius: 50%;
     float: left;
     margin-right: 10px;
+    margin-top: 16px;
+
   }
 
 .hero-content {
@@ -56,7 +63,7 @@ img {
 
 /* Features Section Styles */
 .features {
-    padding: 50px 0;
+    padding: 100px 0;
     background-image: url('../images/img2.jpg');
     background-size: cover;
     text-align: center;
@@ -79,6 +86,7 @@ img {
 .testimonials {
     padding: 50px 0;
     text-align: center;
+    background-color: white;
 }
 
 .testimonial {
