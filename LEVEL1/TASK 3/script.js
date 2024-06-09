@@ -51,8 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
           return num1 * num2;
         case '/':
           return num1 / num2;
-        case '^2':
-          return num1 * num1;
         default:
           return num2;
       }
